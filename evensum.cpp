@@ -1,4 +1,4 @@
-// to get sum of N
+// to get sum of N numbers
 
 #include<iostream>
 using namespace std;
@@ -12,9 +12,13 @@ int main(){
     cin>>n;
 
 while(i<=n){
+    if(i%2==0){
     sum=sum+i;
     i=i+1;
-    
+    }
+    else {
+        i=i+1;
+    }
 }
 cout<<sum;
 return 0;
